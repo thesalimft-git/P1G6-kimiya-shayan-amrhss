@@ -62,24 +62,24 @@
 
 
 
-def my_range(*args):
-    start = 0
-    step = 1
-    if len(args) == 3:
-        start = args[0]
-        end = args[1]
-        step= args[2]
-    if len(args) == 2:
-        start = args[0]
-        end = args[1]
-    if len(args) == 1:
-        end = args[0]
+# def my_range(*args):
+#     start = 0
+#     step = 1
+#     if len(args) == 3:
+#         start = args[0]
+#         end = args[1]
+#         step= args[2]
+#     if len(args) == 2:
+#         start = args[0]
+#         end = args[1]
+#     if len(args) == 1:
+#         end = args[0]
     
-    i = start
-    while i < end:
-        print(i)
-        i += step
+#     i = start
+#     while i < end:
+#         print(i)
+#         i += step
 
-my_range(10)
-my_range(5, 10)
-my_range(10, 100, 5)
+# my_range(10)
+# my_range(5, 10)
+# my_range(10, 100, 5)
